@@ -1,0 +1,42 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    color: white;
+    display: flex;
+    height: 97.9vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: linear-gradient(lightblue, rgb(68, 68, 209));
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1{
+    text-decoration: underline;
+}
+
+button {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid lightsalmon;
+    background-color: rgb(22, 220, 220);
+    color: lightcoral;
+    font-size: 16pt;
+    font-weight: 600;
+    text-align: center;
+}
+
+#counter {
+    display: flex;
+}
+
+#currentNumber {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    font-size: 16pt;
+}

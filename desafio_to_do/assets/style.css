@@ -1,0 +1,48 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    background-image: linear-gradient(purple, blue, lightblue);
+    background-attachment: fixed;
+}
+
+h1 {
+    margin: 20px;
+}
+
+button {
+    border: 1px solid rgb(105, 197, 255);
+    border-radius: 5px;
+    background-color: rgb(227, 248, 255);
+    color: rgb(49, 140, 197);
+    text-align: center;
+    padding: 5px;
+}
+
+input[type="text"] {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+#areaTarefas {
+    margin-top: 20px;
+    font-size: 1.3em;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2vh;
+}
+
+:checked + label{
+    text-decoration: line-through;
+    color: grey;
+}
