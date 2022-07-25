@@ -4,5 +4,3 @@ function numeros(n1, n2){
     let maiorVinte = n1+n2 > 20? 'maior':'menor';
     return `Os números ${n1} e ${n2} ${iguais}. Sua soma é ${n1+n2}, que é ${maiorDez} que 10 e ${maiorVinte} que 20.`
 }
-
-console.log(numeros(78,3))
